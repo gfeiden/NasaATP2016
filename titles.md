@@ -1,3 +1,7 @@
+__Magnetic Fields Throughout Early (sub)Stellar Evolution__
+
+__Magnetic Fields in Early (sub)Stellar Evolution: Improving Age Estimates for Young Stars__
+
 __Young (sub)Stellar Evolution Models for a New Generation__
 
 __A New Generation of Young (sub)Stellar Evolution Models__
