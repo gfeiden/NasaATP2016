@@ -1,6 +1,6 @@
 __Magnetic Fields Throughout Early (sub)Stellar Evolution__
 
-__Magnetic Fields Throughout Early (sub)Stellar Evolution: Improving Age Estimates for Young Stars__
+__Magnetic Fields Throughout Early (sub)Stellar Evolution: Improving Age and Mass Estimates for Young Objects__
 
 __Young (sub)Stellar Evolution Models for a New Generation: Magnetic Fields & Starspots__
 
