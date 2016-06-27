@@ -1,0 +1,3 @@
+\contentsline {section}{Introduction}{1}{section*.1}
+\contentsline {section}{Magnetic Fields in (sub)Stellar Evolution}{2}{section*.1}
+\contentsline {section}{Proposed Research: Grids of Magnetic (sub)Stellar Evolution Models}{3}{section*.1}
