@@ -1,0 +1,118 @@
+%
+\documentclass[12pt,letter]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{color, colortbl}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage[]{natbib}
+\usepackage[]{sidecap}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+%\usepackage{defs}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{multicol}
+
+%\usepackage{libertine}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.4\baselineskip}
+\setlist{nolistsep}
+
+\usepackage[pdftex]{hyperref}
+\hypersetup {
+    bookmarks=true,                    % show bookmarks bar in pdf reader
+    pdftitle={NASA Astrophysics Theory Program NOI},                   
+    pdfauthor={Gregory A. Feiden},     % set pdf author
+    pdfsubject={Notice of Intent for NASA ROSES 2016 ATP Solicitation}, % pdf subject
+    colorlinks=true,                   % false = box link, true = colored links
+    linkcolor=black,                   % color of internal links
+    citecolor=black,                    % color of citations
+    urlcolor=NavyBlue                      % external url color
+}
+\urlstyle{same}
+
+\captionsetup[table]{labelfont={footnotesize, bf}, textfont={footnotesize, sc}, labelsep=newline, labelformat=simple, justification=centering}
+\captionsetup[figure]{labelfont={footnotesize, bf, it}, textfont={footnotesize, it}, labelsep=colon, labelformat=simple}
+
+
+\citestyle{aa}
+\bibliographystyle{apj}
+
+\pagestyle{fancy}
+\fancyhead[C]{Magnetic Fields in Early (sub)Stellar Evolution}
+\fancyhead[L]{Gregory A.~Feiden}
+\fancyhead[R]{\thepage\ of\ \pageref{LastPage}}
+\fancyfoot[C]{}
+%\renewcommand{\headrulewidth}{0.0pt}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage\ of\ \pageref{LastPage}}
+    \renewcommand{\headrulewidth}{0.0pt}
+    \renewcommand{\footrulewidth}{0.0pt}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip}
+\newenvironment{myindentpar}[1]%
+ {\begin{list}{}%
+         {\setlength{\leftmargin}{#1}}%
+         \item[]%
+ }
+ {\end{list}}
+
+\begin{document}
+\thispagestyle{plain}
+
+
+\setstretch{1.2}
+\begin{center}
+	{\bf {\Large Magnetic Fields in Early (sub)Stellar Evolution}
+	
+	{\large Improving Mass and Age Estimates for Young Objects}}
+	
+	\emph{NASA Astrophysics Theory Program Notice of Intent} 
+\end{center}
+
+\begin{center}
+	{\bf PI: Dr. Gregory A.~Feiden (University of North Georgia)} \\
+	Co-I: Dr.~Bengt Edvardsson (Uppsala University) \\
+	Co-I: Dr.~Nikolai Piskunov (Uppsala University) \\
+	Collaborators: \\
+	Dr.~Lent C.~Johnson (University of California, San Diego) \\
+	Dr.~Adam L.~Kraus (The University of Texas at Austin) \\
+	Dr.~Andrew W.~Mann (The University of Texas at Austin) \\
+	Dr.~Aaron C.~Rizzuto (The University of Texas at Austin) \\
+\end{center}
+
+{\bf Project Description} \\
+Stellar evolution models are fundamental to understanding a number of astrophysical processes that occur relatively early-on in the lives of stars and substellar objects. However, it is well-established that stellar evolution models are plagued by systematic errors at young ages, implying significant uncertainties are present in our understanding about mass- and time-dependent features of star and planet formation (e.g., in the (sub)stellar IMF, and in formation timescales). The purpose of our proposal will be to improve the accuracy of model mass and age predictions through the inclusion of magnetic fields in young stellar models.
+
+Current generations of young stellar evolution models are based on physics that have remained largely unchanged over the past 20 years. Comparing theoretical isochrones from existing models against HR diagram positions of stars in young clusters reveals that isochrones fit to early-type members yield ages that are systematically older by a factor of two than ages found from fitting isochrones to late-type members. Furthermore, eclipsing binary systems (EBs) discovered by K2 show that models predict ages different by up to 50\% for the same star, depending on whether one performs the isochrone fitting in the HR or mass-radius diagram. These errors highlight the need for a paradigm shift about the physics required to accurately model young stars.
+
+Recently, we proposed that magnetic inhibition of convection can explain these errors (Feiden 2016). Using stellar evolution models that include a self-consistent treatment of magnetic fields on stellar structure, we showed that a single 10 Myr isochrone fit the HR diagram of the young cluster Upper Scorpius. The same isochrone also accurately reproduced the slope of the mass-radius relationship, seemingly mitigating the most worrisome errors. However, the study was based on two EBs and does  not represent a robust solution for Upper Scorpius, let alone for all young stellar clusters.
+
+We will therefore propose to develop these young magnetic (sub)stellar evolution models. The project has three objectives: (1) extend the model mass range toward lower (< 0.1 Msun) and higher masses (> 1.5 Msun), (2) introduce an evolving magnetic field, and (3) create a large, publicly available grid of magnetic mass tracks and isochrones. To extend models to higher masses, we will extend the MARCS model atmosphere grid to higher temperatures (Co-Is Piskunov \& Edvardsson). To extend models to lower masses, we will incorporate the influence of finite conductivity on magnetic fields. Evolving magnetic fields will be based on thermal equipartition arguments. Finally, the large grid of magnetic models will cover stars with masses up to 5 Msun with metallicities ranging from -1.0 up to +0.5 dex using two different solar compositions. 
+
+Models developed as a part of this proposal will be validated on two fronts: (1) Using 15 new EBs found by K2 in Upper Scorpius, which span all spectral types (led by collaborator Kraus). Resulting stellar properties will be determined with 1 - 2\% precision for systems. Critically, magnetic fields will be measured from high-resolution NIR spectra, adding an additional layer of rigor to model validation. (2) Using color-magnitude diagram morphology of young clusters in the Small Magellanic Cloud observed by HST (led by collaborator Johnson) to test model accuracy in metal-poor environments.
+
+Ultimately, we know that non-magnetic models are plagued by errors. Further tests of these models are likely to reinforce this fact. New insight will be uncovered pertaining to the characteristics of those errors, but such tests will also stop short of evaluating new hypotheses. It is thus imperative that the latest generation of models be made available so that observers can test new predictions, interpret their data according to the latest knowledge about early stellar evolution, and inform model development heading into the TESS and JWST era.
+
+%Accurate absolute stellar masses and ages are perhaps the most sought after, yet most elusive, of astrophysical quantities. This is especially true for identifiably young stellar systems (< 100 Myr), where absolute masses and ages constrain a number of mass- and time-dependent astrophysical processes. Our understanding about the timescale for primordial gaseous circumstellar disks to disperse, the timescale for giant extrasolar planets to form, and the dynamical processes governing the subsequent evolution of extrasolar planetary systems all rely on accurately knowing the ages of young stellar populations. Stellar masses and ages also directly inform our understanding about the physics of star formation---through estimates of the stellar initial mass function---and the detailed star formation history of stellar populations. However, despite their importance, accurate masses and ages for young stars remain elusive due to a necessary reliance on predictions from stellar evolution models, which are beset with problems at ages younger than 100 Myr.
+
+
+%Stellar models are often the only tool available to infer the masses and ages of stars. Ages inferred from models for young stars and stellar populations are our only means of constraining timescales for the dispersal of primordial circumstellar gas disks, the formation of giant planets, and the subsequent dynamical evolution of planetary systems. Stellar models also provide insight into star and planet formation processes; model-inferred masses contribute directly to our knowledge about the IMF, while model-inferred ages reveal the detailed history of star-forming regions and indirectly unveil the substellar IMF, as ages allow for a conversion between the luminosity of a substellar object and its mass. Thus, systematic errors present in stellar models directly translate to systematic errors in our knowledge of star and planet formation.
+
+
+%reveals that model mass predictions are discrepant with empirical values by 50\% and inferred ages for a given cluster can vary by up to 100\%. In a number of young clusters,   
+%These discrepancies indicate that significant uncertainties remain in our understanding of star and planet formation (e.g., the IMF shape, star/planet formation timescales), which necessarily rely on the accuracy of mass and age predictions from stellar evolution models.
+
+\end{document}
