@@ -10,7 +10,7 @@
 \usepackage[]{sidecap}
 \usepackage{setspace}
 \usepackage{amsmath,amssymb}
-%\usepackage{defs}
+\usepackage{defs}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
@@ -23,15 +23,15 @@
 \usepackage[T1]{fontenc}
 
 \setlength{\parindent}{0cm}
-\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parskip}{0.5\baselineskip}
 \setlist{nolistsep}
 
 \usepackage[pdftex]{hyperref}
 \hypersetup {
     bookmarks=true,                    % show bookmarks bar in pdf reader
-    pdftitle={NASA Astrophysics Theory Program NOI},                   
+    pdftitle={NASA Astrophysics Theory Program Proposal},                   
     pdfauthor={Gregory A. Feiden},     % set pdf author
-    pdfsubject={Notice of Intent for NASA ROSES 2016 ATP Solicitation}, % pdf subject
+    pdfsubject={Proposal for NASA ROSES 2016 ATP Solicitation}, % pdf subject
     colorlinks=true,                   % false = box link, true = colored links
     linkcolor=black,                   % color of internal links
     citecolor=black,                    % color of citations
@@ -40,7 +40,7 @@
 \urlstyle{same}
 
 \captionsetup[table]{labelfont={footnotesize, bf}, textfont={small, sc}, labelsep=newline, labelformat=simple, justification=centering}
-\captionsetup[figure]{labelfont={footnotesize, bf, it}, textfont={small, it}, labelsep=colon, labelformat=simple}
+\captionsetup[figure]{labelfont={footnotesize, bf}, textfont={small}, labelsep=colon, labelformat=simple}
 
 
 \citestyle{aa}
@@ -81,10 +81,11 @@
 \end{center}
 
 \begin{center}
-	{\bf PI: Dr. Gregory A.~Feiden (University of North Georgia)} \\
-	Co-I: Dr.~Bengt Edvardsson (Uppsala University) \\
-	Co-I: Dr.~Nikolai Piskunov (Uppsala University) \\
+	{\bf PI: Dr. Gregory A.~Feiden (University of North Georgia)} 
+	
 	Collaborators: \\
+	Dr.~Bengt Edvardsson (Uppsala University) \\
+	Dr.~Nikolai Piskunov (Uppsala University) \\
 	Dr.~Lent C.~Johnson (University of California, San Diego) \\
 	Dr.~Adam L.~Kraus (The University of Texas at Austin) \\
 	Dr.~Andrew W.~Mann (The University of Texas at Austin) \\
@@ -96,14 +97,26 @@
 \clearpage
 
 \pagenumbering{arabic}
-{\bf\large 1. Introduction} \addcontentsline{toc}{section}{Introduction} \\
+{\bf\large 1. Background} \addcontentsline{toc}{section}{Background} 
+\input{sec/intro.tex}
 
-\clearpage
 
-{\bf\large 2. Magnetic Fields in (sub)Stellar Evolution} \addcontentsline{toc}{section}{Magnetic Fields in (sub)Stellar Evolution} \\
+%{\bf\large 2. Previous Work: Magnetic Fields in Early Stellar Evolution} \addcontentsline{toc}{section}{Previous Work: Magnetic Fields in Early Stellar Evolution} 
+\input{sec/magfield.tex}
 
 \clearpage
 
 {\bf\large 3. Proposed Research: Grids of Magnetic (sub)Stellar Evolution Models} \addcontentsline{toc}{section}{Proposed Research: Grids of Magnetic (sub)Stellar Evolution Models} \\
+
+
+\bibliography{/Users/grefe950/Documents/papers}
+
+\clearpage
+
+\input{sec/bio.tex}
+
+\clearpage
+
+\input{sec/pending.tex}
 
 \end{document}

@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_8)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: proposal.aux
+The style file: apj.bst
+Database file #1: /Users/grefe950/Documents/papers.bib
+Warning--I didn't find a database entry for "Pecaut2016"
+Warning--I didn't find a database entry for "Bodenheimer1965"
+Warning--I didn't find a database entry for "Hillenbrand2008"
+Warning--I didn't find a database entry for "David2016"
+Warning--I didn't find a database entry for "Someone2005"
+Warning--I didn't find a database entry for "Binks2013"
+Warning--can't use both author and editor fields in Jeffries2012
+Warning--empty publisher in Jeffries2012
+You've used 40 entries,
+            2988 wiz_defined-function locations,
+            926 strings with 11275 characters,
+and the built_in function-call counts, 17208 in all, are:
+= -- 1481
+> -- 1075
+< -- 23
++ -- 364
+- -- 323
+* -- 1362
+:= -- 3239
+add.period$ -- 40
+call.type$ -- 40
+change.case$ -- 267
+chr.to.int$ -- 39
+cite$ -- 42
+duplicate$ -- 744
+empty$ -- 1083
+format.name$ -- 434
+if$ -- 3406
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 39
+newline$ -- 124
+num.names$ -- 161
+pop$ -- 281
+preamble$ -- 1
+purify$ -- 267
+quote$ -- 0
+skip$ -- 635
+stack$ -- 0
+substring$ -- 803
+swap$ -- 17
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 357
+warning$ -- 2
+while$ -- 159
+width$ -- 0
+write$ -- 397
+(There were 8 warnings)

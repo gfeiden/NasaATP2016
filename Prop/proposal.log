@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  27 JUN 2016 17:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  30 JUN 2016 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -427,6 +427,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(./defs.sty)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
@@ -823,11 +824,35 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
  [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sec/
+intro.tex
 
- []
+Package natbib Warning: Citation `Pecaut2016' on page 1 undefined on input line
+ 4.
 
+
+Package natbib Warning: Citation `Bodenheimer1965' on page 1 undefined on input
+ line 6.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package natbib Warning: Citation `Hillenbrand2008' on page 1 undefined on input
+ line 12.
+
+
+Package natbib Warning: Citation `David2016' on page 1 undefined on input line 
+14.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 14.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -838,11 +863,125 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \clearpage
-                 [1
+l.15 
+      [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Package epstopdf Info: Source file: <fig/USco_Age_Problems.eps>
+(epstopdf)                    date: 2016-06-28 13:53:21
+(epstopdf)                    size: 107848 bytes
+(epstopdf)             Output file: <fig/USco_Age_Problems-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-06-28 13:54:02
+(epstopdf)                    size: 31469 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/USco_Age_Problems-eps-
+converted-to.pdf fig/USco_Age_Problems.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/USco_Age_Problems-eps-converted-to.pdf, id=131, 680.5425pt x 479.7925pt>
+File: fig/USco_Age_Problems-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/USco_Age_Problems-eps-converted-to.pdf>
+Package pdftex.def Info: fig/USco_Age_Problems-eps-converted-to.pdf used on inp
+ut line 18.
+(pdftex.def)             Requested size: 305.33789pt x 215.26768pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
+) (./sec/magfield.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./fig/USco_Age_Problems-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Someone2005' on page 3 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Binks2013' on page 3 undefined on input line 
+7.
+
+Package epstopdf Info: Source file: <fig/USco_HR_diagram.eps>
+(epstopdf)                    date: 2016-06-29 16:42:55
+(epstopdf)                    size: 96744 bytes
+(epstopdf)             Output file: <fig/USco_HR_diagram-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:43:08
+(epstopdf)                    size: 15798 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/USco_HR_diagram-eps-co
+nverted-to.pdf fig/USco_HR_diagram.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+<fig/USco_HR_diagram-eps-converted-to.pdf, id=199, 501.875pt x 465.74pt>
+File: fig/USco_HR_diagram-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/USco_HR_diagram-eps-converted-to.pdf>
+Package pdftex.def Info: fig/USco_HR_diagram-eps-converted-to.pdf used on input
+ line 13.
+(pdftex.def)             Requested size: 175.65887pt x 163.01143pt.
+Package epstopdf Info: Source file: <fig/USco_MR_diagram.eps>
+(epstopdf)                    date: 2016-06-29 16:42:56
+(epstopdf)                    size: 89278 bytes
+(epstopdf)             Output file: <fig/USco_MR_diagram-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:43:09
+(epstopdf)                    size: 13390 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/USco_MR_diagram-eps-co
+nverted-to.pdf fig/USco_MR_diagram.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/USco_MR_diagram-eps-converted-to.pdf, id=200, 505.89pt x 460.72125pt>
+File: fig/USco_MR_diagram-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/USco_MR_diagram-eps-converted-to.pdf>
+Package pdftex.def Info: fig/USco_MR_diagram-eps-converted-to.pdf used on input
+ line 14.
+(pdftex.def)             Requested size: 177.06415pt x 161.25485pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./fig/USco_HR_diagram-eps-converted-to.pdf> <./fig/USco_MR_diagram-eps-conv
+erted-to.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+(./proposal.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5
+
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6] (./sec/bio.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -852,12 +991,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2
+[7
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8] (./sec/pending.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 24--121
+
+ []
+
+
+Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
@@ -867,41 +1021,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3
+[9
 
 ]
 
 Package caption Warning: Unused \captionsetup[table] on input line 42.
 See the caption package documentation for explanation.
 
-
-Package caption Warning: Unused \captionsetup[figure] on input line 43.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
 (./proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 1E4AC44124EA8BBFCDF354EA49EC9B83;231.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+(rerunfilecheck)             Checksum: 71869AA91DE8F9AE4DE8F694BDDE4368;273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 9993 strings out of 493315
- 145871 string characters out of 6137903
- 254160 words of memory out of 5000000
- 13289 multiletter control sequences out of 15000+600000
- 17477 words of font info for 25 fonts, out of 8000000 for 9000
+ 10240 strings out of 493315
+ 149112 string characters out of 6137903
+ 263492 words of memory out of 5000000
+ 13427 multiletter control sequences out of 15000+600000
+ 37457 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,11n,43p,227b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,1378b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on proposal.pdf (4 pages, 32068 bytes).
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on proposal.pdf (10 pages, 175782 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
