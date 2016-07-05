@@ -1,4 +1,9 @@
 \contentsline {section}{Background}{1}{section*.1}
-\contentsline {section}{Proposed Research: Grids of Magnetic (sub)Stellar Evolution Models}{5}{figure.caption.3}
-\contentsline {section}{Biographical Sketches}{7}{section*.4}
-\contentsline {section}{Current and Pending Support}{9}{Item.10}
+\contentsline {section}{Program Proposal: A Grid of Early (sub)Stellar Evolution Models with Magnetic Fields}{5}{section*.4}
+\contentsline {section}{Scientific Significance}{5}{section*.5}
+\contentsline {section}{Relevance to NASA Programs \& Missions}{8}{section*.6}
+\contentsline {section}{Technical Plan}{9}{section*.7}
+\contentsline {section}{Work Plan}{14}{section*.9}
+\contentsline {section}{Biographical Sketches}{19}{section*.10}
+\contentsline {section}{Current and Pending Support}{21}{Item.10}
+\contentsline {section}{Budget Justification}{22}{section*.11}

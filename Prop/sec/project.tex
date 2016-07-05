@@ -1,0 +1,201 @@
+%
+
+\phantomsection
+{\bf\large 2. Program Proposal: A Grid of Early (sub)Stellar Evolution Models with Magnetic Fields} \addcontentsline{toc}{section}{Program Proposal: A Grid of Early (sub)Stellar Evolution Models with Magnetic Fields} 
+
+{\bf We propose to create a large, publicly available grid of standard and magnetic (sub)stellar evolution models along with tools to facilitate their adoption by the community.} Our finely sampled grid will cover a wide range in mass, metallicity, and surface magnetic field strength---including a sub-grid of models with an evolving magnetic field strength---yielding a total of approximately 130\,000 individual models. Model masses will extend from approximately $0.01\ M_{\odot}$ up to $6.0\ M_{\odot}$, for a total of 360 mass points with metallicities in the range of $-2.0\ {\rm dex}\le [m/H] \le +0.5\ {\rm dex}$ for a total of 20 metallicity values. Surface magnetic field strengths will range from $\langle {\rm B}f\rangle = 0.0$~kG (standard models) up to approximately $\langle {\rm B}f\rangle = 5.0$~kG. 
+
+%Most observational studies of young stars assume solar metallicity, but some stars---such as those in $\beta$ Pic moving group---may have non-solar compositions \citep{Malo2014}.
+
+The program will leverage the existing code base developed by PI Feiden. Stellar models will be calculated with the Dartmouth stellar evolution code \citep{Chaboyer2001, Bjork2006, Dotter2008}, which includes magnetic inhibition of convection \citep{FC12b}. Improvements to the code's microphysics are required to meet the grid specifications outlined above, notably for modeling objects below the nominal core hydrogen burning limit ($\sim 0.08\ M_{\odot}$). The magnetic version of the code is well tested \citep{FC12b, FC13, FC14, FC14b} and has been demonstrated to potentially relieve age discrepancies in young stellar populations \citep{Feiden2016}. 
+
+In addition to the model grid, we will develop tools to create theoretical isochrones and to determine stellar parameters of real stars using Bayesian inference. The tools will be distributed as a standalone software package and as an online tool available through the user's web browser. Our isochrone software will allow a user to create stellar evolution isochrones from mass tracks available in the model grid and then determine the properties of young stellar populations (e.g., age, metallicity). Software to determine stellar parameters will permit users to specify a set of observed stellar properties (e.g., photometric magnitudes, \teff, bolometric flux, stellar mean density from exoplanet transit) and then determine the best fit stellar parameters (e.g., mass, radius, distance, metallicity, age) from stellar models with realistic statistical uncertainties \citep[see, e.g.,][]{Mann2016}. 
+
+Software and analysis tools will also be based on existing code. An isochrone creation tool is partially written based on the principle of "equivalent evolutionary phases" \citep{Bergbusch1992, Dotter2016} and will extend the capabilities of tool distributed with the Dartmouth Stellar Evolution Database \citep{Dotter2008}. Stellar parameter determination will be performed using a Bayesian inference method. The code will be an updated and generalized version of the parameter inference software our team currently uses for stellar characterization \citep{Mann2015, Mann2016}. \\
+
+
+\phantomsection
+{\bf\large 3. Scientific Significance} \addcontentsline{toc}{section}{Scientific Significance} 
+
+The stellar evolution model grid and associated analysis tools we intend to develop and distribute will permit more accurate determinations of absolute stellar ages and masses. Communities studying young stellar populations, star formation, planet formation, planetary system evolution, and characterizing exoplanets will strongly benefit from the availability of models that are able to more accurately reproduce the observed properties of real stars. Our model grid will therefore have a broad influence on a number of research areas, including:
+\begin{itemize}
+	\item {\bf Probing New Physics in Stellar Evolution:} There is ample evidence that standard stellar evolution models for young stars cannot reproduce the observed properties of real stars \citep[e.g.,][]{Hillenbrand2004, Soderblom2014, Stassun2014}. As mentioned in the Background, various hypotheses have been proposed to explain model shortcomings, including episodic accretion \citep[e.g.,][]{Baraffe2009}, magnetic inhibition of convection \citep[e.g.,][]{Feiden2016}, and starspots \citep[e.g.,][]{Jackson2009}. Future observing campaigns, such as the characterization of more young EBs, will continue to test the validity of standard stellar evolution models in an effort to quantify errors and reveal more about the nature of observed discrepancies \citep[e.g.,][]{Kraus2015}. However, greater progress will be made in assessing the physics important in early stellar evolution if those same observational campaigns are able to test theoretical predictions from state-of-the-art models incorporating aspects of the aforementioned hypotheses. \\
+	
+% A hallmark of many observational campaigns (e.g., studies of EBs) is comparing results to theoretical predictions. For stellar evolution models, this often involves overlaying model isochrones and/or mass tracks on the data and performing a by-eye comparison in the HRD or MRD. Models predictions are then either confirmed by to consistent or inconsistent with the observational data. If model predictions disagree with observations, speculations are made as to why models do not agree. More detailed studies testing proposed hypotheses are hampered by the lack of availability of models that incorporate new physics that may underlie the observed disagreements (e.g., accretion, magnetic fields, starspots). To make real progress in understanding the observed discrepancies, theoretical models must be available to permit quantitative tests of predictions made by new models (e.g., magnetic field strengths). ({\bf Coll. Kraus}) \\
+
+	\item {\bf Characterization of Young Transiting Exoplanet Host Stars:} \kepler\ is revealing a number of transiting exoplanet candidates around stars in young stellar populations \citep[e.g,][]{Mann2016, Mann2016b, David2016}. The principle uncertainties in interpreting transit data are the properties of the host star (e.g., radius, mass, and age). Stellar radii are crucial for determining the radius of a transiting planet, as the transit depth is determined by the ratio of the planet's radius to the stellar radius. For young stars, one obtains consistent radii using standard and magnetic models, but the mass and age associated with the given radius are different by a factor of two (e.g., Mann et al. 2016 vs David et al. 2016). Accurate ages and masses are needed to help us understand the secular dynamical evolution of planetary systems (see below) and help us connect planet occurrence across cosmic time. ({\bf Colls. Mann \& Rizzuto})   \\
+	
+	\item {\bf Migration Timescale for Short-Period Exoplanets:} The dominant physical mechanism(s) responsible for producing short-period giant planets ($P_{\rm orb} < 20$ days) is currently unknown. Planets may form in-situ close their host star \citep{}, they may migrate through the protoplanetary disk \citep{}, or they may be subject to planet-planet interactions (Lidov-Kozai mechanism) that scatter planet into tight orbits about their host star \citep{}. Each process likely has an influence on the resulting short-period planet distribution observed around older stars (e.g., the original \emph{Kepler} sample), but which mechanism dominates the resulting distribution is uncertain. Since the aforementioned mechanisms each occur over different timescales, the key to identifying the dominant mechanism is to trace the occurrence of short-period planets around stars of similar masses in clusters with a large range in ages. Therefore, it is critical to obtain accurate masses for individual stars and accurate ages for their host cluster. ({\bf Colls. Rizzuto \& Mann})\\
+	
+	\item {\bf Masses of Directly-Imaged Substellar Objects:} Directly-imaged substellar companions provide important constraints on the shape of the brown dwarf and giant planet initial mass function \citep[e.g.,][]{Chabrier2003}. The initial mass function for these objects informs our understanding about how brown dwarf and giant planet form and whether the physical mechanisms are similar for these two classes of objects \citep{Chabrier2014}. A large number of directly-imaged substellar objects are now being uncovered \citep[e.g.,][]{Chauvin2004, Kalas2008, Spiegel2011, Bower2013, Hinkley2015, Macintosh2015}, but the key to interpreting the observations is knowing the host star's age. This is because substellar objects cool over time, meaning their brightness contrast and spectra also change over time. Errors in the host star's age at the 50\% level, as is currently the case for ages predicted by low-mass stellar models, introduces an error in mass estimates of a factor of 2 for objects near the deuterium burning limit \citep{Chabrier2000} and upward of a factor of 5 for Jupiter mass objects \citep{Baraffe2003}. Furthermore, if magnetic fields are able to delay the contraction timescale for young substellar objects, this introduces potential systematic errors in mass estimates of order 25\%, on top of the errors introduced by age corrections \citep{Chabrier2000}.  \\
+	
+	\item {\bf Giant Planet Formation Timescales:} A critical ingredient for giant planet formation theory is the time during which gas is available in primordial circumstellar disks. Surveys of gaseous circumstellar disks around stars in young clusters indicate that the fraction of stars with primoridal gas disks decreases over time \citep{Haisch2001, Mamajek2009}, placing an upper limit on the time during which giant planets must form. Giant planet formation theories indicate that the number of giant planets that form around young stars is a extremely sensitive to this timescale. Current estimates suggest the half-life for primordial gas disks is about 2 - 5 Myr \citep[e.g.,][]{Mamajek2009}. Planet formation theories struggle to properly form giant planets within this timeframe \citep{}. However, most current estimates are based on cluster ages inferred from standard stellar evolution models that are subject to significant age errors, suggesting the giant planet formation timescale may be longer. Recent estimates suggest the timescale may be upward of 20 Myr \citep{Bell2013}. \\
+	
+	\item {\bf Star Formation History:} Empirical HRDs of young stellar clusters in the Milky Way and the Large and Small Magellanic Clouds exhibit significant luminosity spreads for stars with a given $T_{\rm eff}$ \citep[e.g.,][]{Hillenbrand1997, DaRio2010b, DaRio2010a}. Luminosity spreads are often invoked as evidence of intrinsic age spreads in young clusters, suggesting that star formation is a prolonged process \citep{Hillenbrand1997}. This interpretation is in conflict with theoretical descriptions of star formation, which suggest star formation is a relatively rapid process \citep{Elmegreen2000}. It is possible that magnetism can partially explain the luminosity spread \citep[via starspots;][]{Somers2015b}, but robust age estimates are still required to evaluate the maximum possible age spread in a cluster. If stars are affected by magnetic inhibition of convection, age estimates may uniformly increase by as much as 100\%. ({\bf Coll. Johnson}) \\
+	
+	\item {\bf Universality of the Stellar IMF:} The stellar initial mass function (IMF) is a cornerstone of modern astrophysics and has historically been assumed to be independent of galactic environment. However, there are suggestions from extragalactic studies that the IMF is not universal and may be either top-heavy \citep{} or bottom-heavy \citep[e.g.,][]{vanDokkum2012} depending on the galactic environment. Even in the Milky Way, there is suggestion of a bottom-heavy IMF for the Taurus-Auriga association, which shows a relatively large number of low-mass stars for the observed population of high-mass stars \citep{Luhman2009}. The greatest systematic uncertainty in IMF studies is the conversion from observational properties to masses, which necessarily rely on stellar evolution models. As discussed above, errors in standard stellar model mass predictions are upward of 50\%, but magnetic models can relieve these mass discrepancies. \citet{Feiden2016} also showed that there exists a transition region where magnetic inhibition of convection weakens, which causes stars in a narrow mass range to be spread more widely across an HRD as compared to predictions from standard models. ({\bf Coll. Kraus \& Johnson}) \\
+
+\end{itemize}
+
+
+
+\phantomsection
+{\bf\large 4. Relevance to NASA Programs \& Missions} \addcontentsline{toc}{section}{Relevance to NASA Programs \& Missions} 
+
+Stellar evolution models of young stars are known to exhibit significant inaccuracies, with errors of order 50\% in mass and 100\% in age. Yet, a large number of other areas in astrophysics rely heavily on predictions from stellar evolution models at young ages. Our project provides a path toward relieving these inaccuracies and supplies state-of-the-art models to act as a foundation for interpreting an array of astronomical observations. {\bf In particular, our program will support two strategic programs for NASA's Astronomy Division: the Cosmic Origins and Exoplanet Exploration programs.}
+
+{\bf 4.1 Cosmic Origins}
+
+A key objective in the Cosmic Origins program is to understand the mechanisms involved in star formation. One of the fundamental predictions of star formation theory is the stellar initial mass function (IMF). Observational determination of the stellar IMF relies almost exclusively on stellar evolution models to translate observed properties of real stars (e.g., photometric magnitudes and colors) into a stellar mass. At the moment, erroneous mass predictions from stellar models represents a significant uncertainty in IMF determinations. 
+
+{\bf 4.2 Exoplanet Exploration}
+
+Our program will provide state-of-the-art for the characterization of transiting exoplanet host stars revealed by \kepler\ and the future TESS mission. Combining our models with our stellar parameter inference tool, we will provide reliable stellar masses, radii, and ages for host stars in young stellar clusters with statistical uncertainties. The capability of our approach has already been demonstrated in the Zodiacal Exoplanet in Time (ZEIT) program ({\bf Colls. Mann \& Rizzuto}). 
+
+{\bf 4.3 Current \& Future NASA Missions}
+
+{\it 4.3.1 \kepler}
+
+As mentioned above, properties of exoplanets are discovered by \kepler\ are intimately tied to their host star's properties. Determining stellar masses, radii, and ages is typically a role left for stellar evolution models. An exciting development with \kepler\ is the study of young clusters, where standard stellar models are known to be inadequate. Models from our program will help alleviate significant uncertainties in the determination of stellar (and thus planetary) parameters, particularly stellar ages, which are crucial for tracing planetary system architectures through time.
+
+Furthermore, \kepler\ is discovering an extraordinary number of EBs. An objective of many EB studies is to test and calibrate stellar evolution models. There is ample evidence that models fail to reproduce the properties of young stars in EBs \citep[see, e.g.,][]{Stassun2014}. While there are several hypotheses as to why this is the case, no model sets exist to provide EB observers with an opportunity to test new hypotheses. Our program will allow EB researchers to advance stellar evolution by testing the magnetic field hypothesis and testing the latest stellar model predictions. ({\bf Coll. Kraus}) 
+
+{\it 4.3.2 James Webb Space Telescope (JWST)}
+
+The JWST is set to provide space-based near- to mid-infrared (NIR to MIR) imaging and NIR spectroscopic capabilities that will undoubtedly reveal the presence of proto-planetary disks around a number of young stars. To understand how proto-planetary disks evolve with time, it's essential to have reliable estimates of the host star's age. Our program will able to provide age estimates for isolated young stars and stars in young moving groups, enabling a reliable interpretation about how proto-planetary disks evolve with time.
+
+{\it 4.3.3 Transiting Exoplanet Survey Satellite (TESS)}
+
+The future TESS mission is designed to observe the nearest and brightest stars to monitor their brightness for signatures of planetary transits \citep{Ricker2014}. A number of the stars observed by TESS are likely to be bright young stars. Coupled with parallax and proper motion data from \emph{Gaia}, our models will be able to identify young stars and provide estimates of the stellar properties, particularly the age. As with \kepler, our models will thus be a viable source of stellar parameters for transiting exoplanet host stars observed by TESS. \\
+
+
+\phantomsection
+{\bf\large 5. Technical Plan} \addcontentsline{toc}{section}{Technical Plan} 
+
+There are two distinct components to our program: development of the (sub)stellar evolution model grid and development of the tools necessary to facilitate their distribution and adoption throughout the community. 
+
+{\bf 5.1 (Sub)Stellar Evolution Model Grid}
+
+{\it 5.1.1 Surface Boundary Conditions \& Model Atmosphere Structures}
+
+Stellar evolution models require specification of surface boundary conditions, typically taken to the pressure and temperature at a given optical depth. The Dartmouth stellar evolution code uses thermal structures from stellar model atmosphere calculations to extract $P_{\rm gas}$ and $T_{\rm gas}$ at an optical depth $\tau_{\rm Ross} = 10$ using $T_{\rm eff}$, [$m$/H], and \logg\ to define the appropriate atmosphere model \citep{Feiden2016}. Currently, the Dartmouth code uses PHOENIX AMES-COND model atmospheres \citep{Hauschildt1999a} for cool stars ($T_{\rm eff} > 10\,000$~K and ATLAS model atmospheres for hot stars \citep{Castelli2004}. However, we recently discovered that the original PHOENIX models have an erroneous thermal structure at optical depths $\tau > 1$, suggesting revisions to models may be required. This also creates a situation where the transition from PHOENIX to ATLAS surface boundary conditions at high optical depths is not smooth, causing models to crash. 
+
+%%% FIGURE: MISMATCH/ERRORS WITH ORIGINAL MODEL ATMOSPHERES?
+
+Unfortunately, we cannot simply adopt a single model atmosphere model to prescribe surface boundary conditions: PHOENIX models no longer compute models with the \citet{GS98} solar composition and ATLAS does not have grid available for more recent solar compositions \citep[e.g.,][]{Asplund2009}. For consistency, it is desirable to maintain the same input physics throughout our full model grid, meaning we should not in one instance adopt only PHOENIX models \citep[for][]{Asplund2009} and in another adopt a mix of PHOENIX and ATLAS \citep[for][]{GS98}.
+
+To overcome these issues, we are computing new grids of model atmospheres to use as surface boundary conditions for stars with $T_{\rm eff} > 2\,800$~K and for deriving new synthetic color-$T_{\rm eff}$ relations with updated atomic and molecular line lists \citep{Plez2012}. We will use a combination of PHOENIX \citep{Allard2011}, MARCS \citep{Gustafsson2008}, and ATLAS \citep{Castelli2004} model atmospheres for $T_{\rm eff} < 2\,800$~K, $2\,800 \textrm{ K} \le T_{\rm eff} < 8\,000$~K, and $T_{\rm eff} \ge 8\,000$~K, respectively. MARCS and ATLAS use similar physics in the vicinity of $T_{\rm eff} \approx 8\,000$~K, so there should be no loss of consistency. For $T_{\rm eff} \approx 3\,000$~K, there is little difference between model atmosphere structures from PHOENIX and MARCS \citep{Gustafsson2008}, meaning there should also be a minimal loss of consistency at lower temperatures (see below).
+
+{\it 5.1.2 Extending Dartmouth Models to Lower Masses}
+
+The Dartmouth stellar evolution code is currently optimized to model stars with masses between $0.1 \lesssim M/M_{\odot} \le 6.0$. The lower mass limitation is imposed by the validity of the adopted gas equation of state and surface boundary conditions. Currently, we use the FreeEOS \citep{Irwin2007}, which is not designed to model cool, high pressure environments characteristic of the outer layers in brown dwarfs \citep{Chabrier2000}. To overcome this limitation, we will use the \citet{scvh95} equation of state. The equation of state is already incorporated into the Dartmouth code, but is currently not operational as it was not properly maintained over the years. We will enable this equation of state and compare model results in the vicinity of $0.1\ M_{\odot}$ to ensure consistency with the rest of the grid computed with FreeEOS.
+
+Surface boundary conditions used by the original Dartmouth stellar evolution code are valid down to $T_{\rm eff} \approx 2\,700$~K \citep{Hauschildt1999a}. Our current \citep{Hauschildt1999a} and future \citep{Gustafsson2008} model atmospheres do not treat dust species, which begin to form below $T_{\rm eff} \approx 2\,700$~K. The Dartmouth code has since been updated to include the latest PHOENIX BT-Settl model atmospheres \citep{Allard2011} that attempt to treat the formation of dust within the gas equation of state and radiative opacities. As mentioned above, in the transition region between where we will use MARCS and PHOENIX models, the two model sets produce similar thermal structures and therefore do not significantly influence the resulting interior model calculation. Nevertheless, we will compare interior model results using PHOENIX and MARCS boundary conditions to ensure consistency of model predictions across this boundary.
+
+{\it 5.1.3 Evolving Magnetic Field}
+
+%%%% FIGURE: EVOLUTION OF MAGNETIC FIELD WITH TIME?
+
+Stellar evolution models that include magnetic inhibition of convection (Delaware code, Mullan \& MacDonald 2001; Dartmouth code, Feiden \& Chaboyer 2012) are designed such that a surface magnetic field strength must be specified prior to calculating a model star. This value is typically adjusted as a free parameter until models reproduce empirical data \citep[e.g., radii of stars in EBs;][]{FC12b, FC13, FC14, MM14}. For work attempting to identify whether magnetic fields provide a viable explanation for anomalous properties of stars, this tactic is sufficient, as it yields a quantitative prediction for the surface magnetic field strength that can in principle be tested by observations. 
+
+However, this approach is insufficient when comparing magnetic models against empirical HRDs and CMDs for stellar populations. This is because not all stars in a stellar population will have precisely the same magnetic field strength. Stars with different masses are likely to have different magnetic field strengths at a given age. Furthermore, the magnetic field strength for a star of a given mass changes over time, due to a combination of changing conditions at the stellar photosphere \citep[see, e.g.,][]{Feiden2016} and changes in stellar rotation \citep[e.g.,][]{Skumanich1972}. To model stellar populations, we therefore need a set of models that automatically prescribe the surface magnetic field strength as a function of stellar mass and age. 
+
+In lieu of a stellar model with a complete magnetic dynamo mechanism, our next best estimate for young stars is assuming they have surface field strengths equal to their thermal equipartition value \citep{JohnsKrull1999}. This was shown to be a very reasonable {\it a priori} approximation by \citet{Feiden2016}, although their model surface magnetic field strengths did not evolve in time. We have developed a method by which the surface magnetic field strength is automatically determined based on thermal equipartition estimates as the model evolves in time. The method is already implemented in the Dartmouth code, but requires further testing to ensure models are converging and that they are numerically stable during their evolution. 
+
+{\it 5.1.5 Computing the Model Grid}
+
+Computation of the model grid is a core component of the project. Calculating of order 130\,000 individual models requires approximately 22\,000 CPU hours. These calculations will be performed on a multi-core desktop, which is equipped with two processors with six cores each (12 total cores) and 3 TB of hard disk capacity. On this machine, the computation of the model grid can be completed within 90 days, or the duration of an undergraduate summer project. The hard disk space is sufficient to store all data products for the full model grid. Various sub-grids have already been computed by PI Feiden, so the actual computation time required for the project will be less than 3 months. Results will be continually monitored to check for models that did not converge and ones that terminated pre-maturely.
+
+Calculating new models is simplified with software that automatically generates all of the necessary input data for a stellar evolution model. While it may seem trivial, it is critical that an undergraduate can quickly learn how to run the stellar evolution code and generate new models so that the project can be accomplished within the time allotted. This software ensures that this is the case. Small modifications to the software need to be made to streamline organization of completed models, but it is otherwise complete.
+
+
+{\it 5.1.6 Photometric Magnitudes and Colors}
+
+After completion of the full model grid, a color--$T_{\rm eff}$ transformation will be applied to each model to convert their $T_{\rm eff}$, [$m$/H], \logg, and luminosity into synthetic absolute magnitudes and colors. We will compute synthetic photometry in standard Johnson-Cousins, 2MASS, HST WFC3 and ACS, {\it Gaia} BP/RP, \kepler, and TESS passbands. At the same time, we will distribute software to allow for the computation of other standard photometric passbands (e.g., SDSS) and also user-supplied passbands. Color--$T_{\rm eff}$ transformation will be applied using tables of bolometric corrections computed from the same model atmosphere structures used to specify surface boundary conditions \citep[see above;][]{Allard2011, Gustafsson2008, Castelli2004}.
+
+{\it 5.1.7 Publicly Accessible Model Archive}
+
+Stellar models computed for this program will be made publicly available online through a University of North Georgia web server. A simple, intuitive webpage will be constructed to allow users to quickly locate and download data products. Each individual stellar model produces two principle output files (one summary, one detailed) with information about how stellar model properties evolve with time (mass tracks). Synthetic photometry will be appended to the summary mass track. In addition, each individual model yields numerous snapshots that provide detailed information about the internal structure of a model at a given age. All data products from the stellar evolution models will be distributed as individual files and larger archive files containing portions of the full model grid. A single archive file with the full grid will also be made available.  
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.45\linewidth]{./fig/KJK.eps} \hspace{\fill}
+	\includegraphics[width=0.45\linewidth]{./fig/smc_iso_cmd.pdf}
+	\caption{Color-magnitude diagrams (CMDs) for ({\it left}) the Upper Scorpius OB Association and ({\it right}) the Small Magellanic Cloud (SMC). }
+	\label{fig:smc}
+	\vspace{-0.2in}
+\end{figure}
+
+{\it 5.1.8 Effects of Magnetic Inhibition of Convection on Stellar Properties}
+
+The influence of magnetic inhibition of convection on the fundamental properties of young stars is generally understood. For a given mass star, models predict that magnetic inhibition of convection cool the stellar surface and delay pre-main-sequence contraction \citep{DAntona2000, MM10, Malo2014, Feiden2016}. While the basic picture about how magnetic fields affect young stellar model predictions is believed to be understood, details about how magnetic inhibition affects stellar interior structure in young stars  has been relatively unexplored \citep[e.g., on radiative core development;][]{Feiden2016}. With our large grid of magnetic models, we will systematically examine how stellar interior structure is affected by magnetic inhibition of convection and how the influence of magnetic fields changes with age and metallicity. We will evaluate the impact of the resulting interior structure changes on predicted lithium depletion curves \citep[see, e.g.,][]{Malo2014} and possible influences on asteroseismic oscillations \citep{Zwintz2014}.
+
+
+{\it 5.1.9 Model Validation}
+
+As we mentioned above, a grid of magnetic early stellar evolution models opens up the possibility for EB researchers to rigorously test the magnetic field hypothesis. We are running a program (PI Kraus) to characterize young EBs discovered by \kepler\ with this goal in mind. We have flagged 15 EBs in the 10 -- 20 Myr Scorpius-Centaurus OB Association. Crucially, the EBs are spread across the association's CMD, meaning a nearly complete mass-radius relationship can be formed and the validity of magnetic stellar models can be rigorously tested across a wide range of masses. One EB system has been published \citep[UScoCTIO 5;][]{Kraus2015}, which subsequently anchored the mass-radius relationship at the low-mass end and provided evidence to suggest that magnetic inhibition of convection may be an important factor in pre-main-sequence stellar evolution \citep{Feiden2016}. In addition, we are obtaining high-resolution near-infraread spectra using the IGRINS spectrograph ($R = 40\,000$) on the McDonald Observatory 107-in telescope. These spectra will allow us to measure strong surface magnetic field strengths on stars in the Scorpius-Centaurus OB Association via Zeeman splitting of spectral lines, providing a direct test of model magnetic field strength predictions.
+
+Observations of EBs in the Scorpius-Centaurus OB Association provides validation of model predictions in a near-solar metallicity environment \citep{}. To test the accuracy of our models in a non-solar metallicity environment, we are running a program (PI Johnson) to compare standard and magnetic stellar evolution isochrones to CMDs of young clusters in the Small Magellanic Cloud (SMC; [$m$/H]~$\approx -0.75$) as part of the HST program ``The Small Magellanic Cloud Investigation of Dust and Gas Evolution (SMIDGE).'' We have high resolution, multi-band HST photometry of a region of the SMC that contains numerous young clusters. We will explore whether we observe similar modeling errors in SMC clusters as we do in Milky Way clusters and whether magnetic inhibition of convection is able to provide a viable solution to the observed modeling errors. Initial results indicate that models describe the morphology of young SMC clusters with reasonable accuracy, including possibly revealing the deuterium burning bump at the youngest ages, as shown in Figure~\ref{fig:smc}. 
+
+{\bf 5.2 Supporting Analysis Tools}
+
+A software package will be made available to access, manipulate, and run analyses with models contained in our grid. The code will be open source and version controlled using GitHub. There are two main components of our software package: the isochrone construction kit and the stellar parameter inference tool. 
+
+{\it 5.2.1 Isochrone Construction Kit}
+
+The primary output from a stellar evolution code is individual mass tracks, describing how a star of a given mass evolves over time. However, a number of applications of stellar evolution models (e.g., cluster age determinations) require the use of stellar model isochrones, which describe stellar properties as a function of mass at a given age. Constructing isochrones from mass tracks can be a notoriously tricky problem, particularly when attempting to describe advanced evolutionary stages \citep[see, e.g.,][]{Bergbusch1992, Dotter2016}. Therefore, it is customary for modelers to provide a grid of stellar model isochrones and interpolation routines. This becomes cumbersome for large model grids, especially because researchers want different age resolutions, meaning they must anyway download software and create new isochrones via interpolation. Instead of providing extensive isochrones, we will supply software to allow the user to generate their own sets of isochrones. This is only possible because we are committed to publishing and distributing all data products from our stellar evolution code. The isochrone routine will be based on a now-standard procedure of defining equivalent evolutionary phases \citep[EEPs;][]{Bergbusch1992}. Our isochrone software is partially completed, but it must be debugged, optimized, and incorporated into the larger software package.
+
+{\it 5.2.2 Stellar Parameter Inference Tool}
+
+Stellar evolution models are often used to determine fundamental parameters for single stars. To facilitate adoption of our models and promote rapid dissemination, we will provide software to compute best fit model parameters based on user supplied information about a real star. This software will be based on existing software currently used by the PI to determine stellar properties \citep{Boyajian2015, Mann2015, Mann2016, Gaidos2016}. Our current software uses a Markov Chain Monte Carlo (MCMC) method to sample the posterior probability distributions for the stellar parameters (mass, metallicity, age, distance, radius, etc.) by exploring the parameter space defined by a small existing grid of stellar models. The software determines model properties by using an N-dimensional interpolation routine, which is computationally expensive. Part of developing the parameter inference tool for public distribution will be to reduce computational costs by parametrizing the full N-dimensional grid using a number of polynomial relations to describe stellar properties as a function of mass, age, metallicity, and magnetic field strength. We must also generalize the code to accept an arbitrary set of observational data as input and automatically modify the likelihood function in the MCMC routine. In time we plan to make this tool available through an online web portal for users wishing to quickly determine model parameters for a single star. \\
+
+\phantomsection
+{\bf\large 6. Work Plan} \addcontentsline{toc}{section}{Work Plan}
+
+Our program will be coordinated by PI Feiden at the University of North Georgia (UNG). The work will be largely conducted by PI Feiden and four undergraduate students from UNG, two of whom will be hired for summer 2017 and two hired for summer 2018.
+
+{\bf 6.1 Plan for 2016}
+
+The following work is set to be completed before the grant begins in 2017:
+
+\begin{itemize}
+	\item[] Feiden: Enable the \citet{scvh95} equation of state and test for consistency with the FreeEOS around 0.1 \msun. Finish implementing an evolving thermal equipartition surface magnetic strength routine. Test the evolving magnetic field strength routine to ensure the code is stable. Begin writing model grid paper number 1. \\
+	
+	\item[] Edvardsson: Compute opacity tables for two solar compositions for use in MARCS. \\
+\end{itemize} 
+
+{\bf 6.2 Plan for 2017}
+
+\begin{itemize}
+	\item[] Feiden: Compute grid of model atmospheres with GS98 solar composition. Supervise undergraduate researchers. Collaborate with Undergraduate 1 to analyze model results. Debug and optimize isochrone construction kit. Begin developing model grid archive website. Finish writing model grid paper number 1 (stellar fundamental properties). Begin writing model grid paper number 2 (synthetic photometry). \\
+	
+	\item[] Edvardsson: Compute grid of model atmospheres with AGSS09 solar composition. Compute tables with bolometric corrections as a function of \logg, [m/H], and \teff\ based on model atmospheres computed with GS98 and AGSS09 solar composition. \\
+	
+	\item[] Piskunov: Computation of ATLAS model atmospheres with AGSS09 composition. Test whether new atomic and molecular line lists affect model atmosphere thermal structure for models with GS98 composition. \\
+	
+	\item[] Kraus: Validation of model prediction by comparing standard and magnetic stellar evolution model predictions against the properties of EBs in young clusters revealed by \kepler. Focus on solar metallicity (galactic environments). \\
+	
+	\item[] Johnson: Validation of model predictions for young, metal-poor clusters in the Small Magellanic Cloud using multi-band photometry from HST. \\
+	
+	\item[] Undergraduate 1: Compute a large grid of stellar evolution models and check the resulting models for convergence. Organize model output data for distribution to the community. Computing customized models for Coll.\ Kraus's EB program, when necessary. Share role in analysis of model results in preparation for a paper describing the model grid. Help write model grid paper number 1. \\
+	
+	\item[] Undergraduate 2 [{\it preferably from UNG's mathematics department}]: Develop polynomial fits to stellar model mass tracks to succeed model grid interpolation. Generalize existing Bayesian parameter inference code using polynomial fits. Writing code documentation and tutorial(s). Write up polynomial fitting for future paper on software package. \\
+\end{itemize} 
+
+{\bf 6.3 Plan for 2018} 
+
+\begin{itemize}
+	\item[] Feiden: Integrate isochrone construction kit into software package. Continuing to develop model archive webpage. Computing custom models for Coll.\ Kraus's EB program, when necessary. Supervise undergraduate researchers. Finish writing model grid paper number 2. Write paper describing the analysis tools software package. \\
+	
+	\item[] Edvardsson: Finish computing tables with bolometric corrections based on model atmospheres computed with GS98 and AGSS09 solar composition.  \\
+	
+	\item[] Kraus: Continued comparison of standard and magnetic stellar evolution model predictions against the properties of EBs in young clusters revealed by \kepler. \\
+	
+	\item[] Mann: Testing and application of stellar parameter inference tool to compute stellar parameters for transiting exoplanet host stars uncovered by K2. \\
+	
+	\item[] Rizzuto: Testing and application of stellar parameter inference tool to compute stellar parameters for transiting exoplanet host stars uncovered by K2. \\
+
+	\item[] Undergraduate 3: Finish software to compute synthetic photometry and integrate into larger software package. Compute synthetic photometry for complete stellar model grid. Compare theoretical CMDs to empirical CMDs from young clusters to evaluate model accuracy and derive ages for stellar clusters. Help write model grid paper number 2. \\
+	
+	\item[] Undergraduate 4 [{\it preferably from UNG's computer science department}]: Finish the stellar parameter inference tool and integrate into larger software package (if needed). Help develop webpage for model grid archive. Development of web portal for stellar parameter inference tool for online calculation of stellar parameters with statistical uncertainties. Help write paper on software package and web interface.
+\end{itemize} 

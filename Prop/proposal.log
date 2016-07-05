@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  30 JUN 2016 12:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  5 JUL 2016 02:15
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**proposal.tex
+**proposal
 (./proposal.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
@@ -669,9 +668,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 39.
+(hyperref)                setting the option has no effect on input line 46.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 39.
+Package hyperref Info: Option `colorlinks' set `true' on input line 46.
 
 LaTeX Warning: Unused global option(s):
     [letter].
@@ -679,21 +678,21 @@ LaTeX Warning: Unused global option(s):
 (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 79.
  (/Users/grefe950/lib/tex/font/t1ptm.fd
 File: T1ptm.fd 1996/01/28 Fontinst v1.504 font definitions for T1/ptm.
 )
@@ -789,12 +788,12 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 72.
+(lastpage)             ! on input line 79.
 \AtBeginShipoutBox=\box59
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 72.
+Package hyperref Info: Link coloring ON on input line 79.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -804,20 +803,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
 (./proposal.out) (./proposal.out)
 \@outlinefile=\write3
 \openout3 = `proposal.out'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
  (./proposal.toc)
 \tf@toc=\write4
 \openout4 = `proposal.toc'.
@@ -844,15 +843,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-Package natbib Warning: Citation `Hillenbrand2008' on page 1 undefined on input
- line 12.
+Package natbib Warning: Citation `Hartmann2001' on page 1 undefined on input li
+ne 10.
 
-
-Package natbib Warning: Citation `David2016' on page 1 undefined on input line 
-14.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 14.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -863,10 +856,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 
+l.13 
       [1
 
 ]
+
+Package natbib Warning: Citation `David2016' on page 2 undefined on input line 
+14.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 14.
 Package epstopdf Info: Source file: <fig/USco_Age_Problems.eps>
 (epstopdf)                    date: 2016-06-28 13:53:21
 (epstopdf)                    size: 107848 bytes
@@ -876,34 +875,25 @@ Package epstopdf Info: Source file: <fig/USco_Age_Problems.eps>
 (epstopdf)                    size: 31469 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/USco_Age_Problems-eps-
 converted-to.pdf fig/USco_Age_Problems.eps>
-(epstopdf)             \includegraphics on input line 18.
+(epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-
-<fig/USco_Age_Problems-eps-converted-to.pdf, id=131, 680.5425pt x 479.7925pt>
+<fig/USco_Age_Problems-eps-converted-to.pdf, id=163, 680.5425pt x 479.7925pt>
 File: fig/USco_Age_Problems-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/USco_Age_Problems-eps-converted-to.pdf>
 Package pdftex.def Info: fig/USco_Age_Problems-eps-converted-to.pdf used on inp
-ut line 18.
+ut line 20.
 (pdftex.def)             Requested size: 305.33789pt x 215.26768pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
-) (./sec/magfield.tex
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./fig/USco_Age_Problems-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `Someone2005' on page 3 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Binks2013' on page 3 undefined on input line 
-7.
-
+[2 <./fig/USco_Age_Problems-eps-converted-to.pdf>]) (./sec/magfield.tex
 Package epstopdf Info: Source file: <fig/USco_HR_diagram.eps>
 (epstopdf)                    date: 2016-06-29 16:42:55
 (epstopdf)                    size: 96744 bytes
@@ -912,15 +902,16 @@ Package epstopdf Info: Source file: <fig/USco_HR_diagram.eps>
 (epstopdf)                    size: 15798 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/USco_HR_diagram-eps-co
 nverted-to.pdf fig/USco_HR_diagram.eps>
-(epstopdf)             \includegraphics on input line 13.
+(epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<fig/USco_HR_diagram-eps-converted-to.pdf, id=199, 501.875pt x 465.74pt>
+
+<fig/USco_HR_diagram-eps-converted-to.pdf, id=206, 501.875pt x 465.74pt>
 File: fig/USco_HR_diagram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/USco_HR_diagram-eps-converted-to.pdf>
 Package pdftex.def Info: fig/USco_HR_diagram-eps-converted-to.pdf used on input
- line 13.
-(pdftex.def)             Requested size: 175.65887pt x 163.01143pt.
+ line 7.
+(pdftex.def)             Requested size: 225.84166pt x 209.58105pt.
 Package epstopdf Info: Source file: <fig/USco_MR_diagram.eps>
 (epstopdf)                    date: 2016-06-29 16:42:56
 (epstopdf)                    size: 89278 bytes
@@ -929,16 +920,24 @@ Package epstopdf Info: Source file: <fig/USco_MR_diagram.eps>
 (epstopdf)                    size: 13390 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/USco_MR_diagram-eps-co
 nverted-to.pdf fig/USco_MR_diagram.eps>
-(epstopdf)             \includegraphics on input line 14.
+(epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/USco_MR_diagram-eps-converted-to.pdf, id=200, 505.89pt x 460.72125pt>
+<fig/USco_MR_diagram-eps-converted-to.pdf, id=207, 505.89pt x 460.72125pt>
 File: fig/USco_MR_diagram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/USco_MR_diagram-eps-converted-to.pdf>
 Package pdftex.def Info: fig/USco_MR_diagram-eps-converted-to.pdf used on input
- line 14.
-(pdftex.def)             Requested size: 177.06415pt x 161.25485pt.
+ line 8.
+(pdftex.def)             Requested size: 227.64839pt x 207.32265pt.
+
+
+Package natbib Warning: Citation `Someone2005' on page 3 undefined on input lin
+e 17.
+
+
+Package natbib Warning: Citation `Binks2013' on page 3 undefined on input line 
+17.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -947,26 +946,304 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3 <./fig/USco_HR_diagram-eps-converted-to.pdf> <./fig/USco_MR_diagram-eps-conv
-erted-to.pdf>])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+erted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-(./proposal.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5
+[4]) (./sec/project.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 22.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Package natbib Warning: Citation `Mann2016b' on page 6 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `David2016' on page 6 undefined on input line 
+26.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Package natbib Warning: Citation `Spiegel2011' on page 6 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Bower2013' on page 6 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Baraffe2003' on page 6 undefined on input lin
+e 30.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+
+Package natbib Warning: Citation `Bell2013' on page 7 undefined on input line 3
+2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Package natbib Warning: Citation `Elmegreen2000' on page 7 undefined on input l
+ine 34.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Package natbib Warning: Citation `vanDokkum2012' on page 7 undefined on input l
+ine 36.
+
+
+Package natbib Warning: Citation `Luhman2009' on page 7 undefined on input line
+ 36.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Package natbib Warning: Citation `Plez2012' on page 9 undefined on input line 8
+7.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package natbib Warning: Citation `JohnsKrull1999' on page 11 undefined on input
+ line 103.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+Package epstopdf Info: Source file: <./fig/KJK.eps>
+(epstopdf)                    date: 2016-07-04 15:03:30
+(epstopdf)                    size: 93457 bytes
+(epstopdf)             Output file: <./fig/KJK-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-04 15:03:33
+(epstopdf)                    size: 36262 bytes
+(epstopdf)             Command: <repstopdf --outfile=./fig/KJK-eps-converted-to
+.pdf ./fig/KJK.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+ <./fig/KJK-eps-converted-to.pdf, id=501, 545.03625pt x 545.03625pt>
+File: ./fig/KJK-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./fig/KJK-eps-converted-to.pdf>
+Package pdftex.def Info: ./fig/KJK-eps-converted-to.pdf used on input line 122.
+
+(pdftex.def)             Requested size: 211.38832pt x 211.38232pt.
+
+<./fig/smc_iso_cmd.pdf, id=502, 671.50874pt x 675.52374pt>
+File: ./fig/smc_iso_cmd.pdf Graphic file (type pdf)
+
+<use ./fig/smc_iso_cmd.pdf>
+Package pdftex.def Info: ./fig/smc_iso_cmd.pdf used on input line 123.
+(pdftex.def)             Requested size: 211.38832pt x 212.64679pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./fig/KJK-eps-converted-to.pdf> <./fig/smc_iso_cmd.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16] (./sec/refs.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17
 
 ])
 
@@ -975,7 +1252,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] (./sec/bio.tex
+[18] (./sec/bio.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -991,7 +1268,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7
+[19
 
 ])
 
@@ -1000,16 +1277,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] (./sec/pending.tex
+[20] (./sec/pending.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 24--121
+Underfull \hbox (badness 10000) in paragraph at lines 24--128
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21
+
+] (./sec/budget.tex)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1021,44 +1307,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9
+[22
 
 ]
 
-Package caption Warning: Unused \captionsetup[table] on input line 42.
+Package caption Warning: Unused \captionsetup[table] on input line 49.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 (./proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 71869AA91DE8F9AE4DE8F694BDDE4368;273.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+(rerunfilecheck)             Checksum: DF49DA6ED9F31AEC024E9B56C1F4B8CB;573.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 10240 strings out of 493315
- 149112 string characters out of 6137903
- 263492 words of memory out of 5000000
- 13427 multiletter control sequences out of 15000+600000
- 37457 words of font info for 53 fonts, out of 8000000 for 9000
+ 10369 strings out of 493315
+ 150937 string characters out of 6137903
+ 269373 words of memory out of 5000000
+ 13498 multiletter control sequences out of 15000+600000
+ 40745 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,11n,43p,1378b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,1568b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (10 pages, 175782 bytes).
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on proposal.pdf (23 pages, 444732 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,6 +26,13 @@
 \setlength{\parskip}{0.5\baselineskip}
 \setlist{nolistsep}
 
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+}
+
 \usepackage[pdftex]{hyperref}
 \hypersetup {
     bookmarks=true,                    % show bookmarks bar in pdf reader
@@ -104,12 +111,12 @@
 %{\bf\large 2. Previous Work: Magnetic Fields in Early Stellar Evolution} \addcontentsline{toc}{section}{Previous Work: Magnetic Fields in Early Stellar Evolution} 
 \input{sec/magfield.tex}
 
+\input{sec/project.tex}
+
 \clearpage
 
-{\bf\large 3. Proposed Research: Grids of Magnetic (sub)Stellar Evolution Models} \addcontentsline{toc}{section}{Proposed Research: Grids of Magnetic (sub)Stellar Evolution Models} \\
-
-
-\bibliography{/Users/grefe950/Documents/papers}
+\input{sec/refs.tex}
+%\bibliography{/Users/grefe950/Documents/papers}
 
 \clearpage
 
@@ -118,5 +125,9 @@
 \clearpage
 
 \input{sec/pending.tex}
+
+\clearpage
+
+\input{sec/budget.tex}
 
 \end{document}
