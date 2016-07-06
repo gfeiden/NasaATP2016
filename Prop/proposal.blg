@@ -2,18 +2,59 @@ This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_8)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 The style file: apj.bst
-Database file #1: /Users/grefe950/Documents/papers.bib
+I found no \bibdata command---while reading file proposal.aux
+Warning--I didn't find a database entry for "Haisch2001"
+Warning--I didn't find a database entry for "Mamajek2009"
+Warning--I didn't find a database entry for "Chabrier2014"
 Warning--I didn't find a database entry for "Pecaut2016"
+Warning--I didn't find a database entry for "Chabrier2003"
+Warning--I didn't find a database entry for "Soderblom2014"
+Warning--I didn't find a database entry for "Mathieu2007"
+Warning--I didn't find a database entry for "Stassun2014"
+Warning--I didn't find a database entry for "Henyey1955"
+Warning--I didn't find a database entry for "Hayashi1961"
+Warning--I didn't find a database entry for "Iben1965"
 Warning--I didn't find a database entry for "Bodenheimer1965"
+Warning--I didn't find a database entry for "Naylor2009"
+Warning--I didn't find a database entry for "DaRio2010a"
+Warning--I didn't find a database entry for "Herczeg2015"
+Warning--I didn't find a database entry for "Hillenbrand1997"
 Warning--I didn't find a database entry for "Hartmann2001"
+Warning--I didn't find a database entry for "Jeffries2012"
+Warning--I didn't find a database entry for "Pecaut2012"
+Warning--I didn't find a database entry for "Malo2014"
 Warning--I didn't find a database entry for "Hillenbrand2008"
+Warning--I didn't find a database entry for "Bell2012"
+Warning--I didn't find a database entry for "Kraus2015"
+Warning--I didn't find a database entry for "Andersen1991"
+Warning--I didn't find a database entry for "Torres2010"
+Warning--I didn't find a database entry for "Alonso2015"
 Warning--I didn't find a database entry for "David2016"
+Warning--I didn't find a database entry for "Feiden2016"
+Warning--I didn't find a database entry for "Baraffe2009"
+Warning--I didn't find a database entry for "Baraffe2010"
+Warning--I didn't find a database entry for "Somers2015b"
+Warning--I didn't find a database entry for "DAntona2000"
+Warning--I didn't find a database entry for "MM01"
+Warning--I didn't find a database entry for "FC12b"
+Warning--I didn't find a database entry for "MM10"
+Warning--I didn't find a database entry for "Biermann1941"
+Warning--I didn't find a database entry for "Deinzer1965"
 Warning--I didn't find a database entry for "Someone2005"
 Warning--I didn't find a database entry for "Binks2013"
+Warning--I didn't find a database entry for "Mamajek2014"
+Warning--I didn't find a database entry for "Chaboyer2001"
+Warning--I didn't find a database entry for "Bjork2006"
+Warning--I didn't find a database entry for "Dotter2008"
+Warning--I didn't find a database entry for "FC13"
+Warning--I didn't find a database entry for "FC14"
+Warning--I didn't find a database entry for "FC14b"
 Warning--I didn't find a database entry for "Mann2016"
-Warning--I didn't find a database entry for "Bergbusch1993"
+Warning--I didn't find a database entry for "Bergbusch1992"
 Warning--I didn't find a database entry for "Dotter2016"
 Warning--I didn't find a database entry for "Mann2015"
+Warning--I didn't find a database entry for "Hillenbrand2004"
+Warning--I didn't find a database entry for "Jackson2009"
 Warning--I didn't find a database entry for "Mann2016b"
 Warning--I didn't find a database entry for "Chauvin2004"
 Warning--I didn't find a database entry for "Kalas2008"
@@ -21,55 +62,68 @@ Warning--I didn't find a database entry for "Spiegel2011"
 Warning--I didn't find a database entry for "Bower2013"
 Warning--I didn't find a database entry for "Hinkley2015"
 Warning--I didn't find a database entry for "Macintosh2015"
+Warning--I didn't find a database entry for "Chabrier2000"
 Warning--I didn't find a database entry for "Baraffe2003"
 Warning--I didn't find a database entry for "Bell2013"
+Warning--I didn't find a database entry for "DaRio2010b"
 Warning--I didn't find a database entry for "Elmegreen2000"
 Warning--I didn't find a database entry for "vanDokkum2012"
 Warning--I didn't find a database entry for "Luhman2009"
+Warning--I didn't find a database entry for "Ricker2014"
+Warning--I didn't find a database entry for "Hauschildt1999a"
+Warning--I didn't find a database entry for "Castelli2004"
+Warning--I didn't find a database entry for "GS98"
+Warning--I didn't find a database entry for "Asplund2009"
 Warning--I didn't find a database entry for "Plez2012"
+Warning--I didn't find a database entry for "Allard2011"
+Warning--I didn't find a database entry for "Gustafsson2008"
+Warning--I didn't find a database entry for "Irwin2007"
+Warning--I didn't find a database entry for "scvh95"
+Warning--I didn't find a database entry for "MM14"
+Warning--I didn't find a database entry for "Skumanich1972"
 Warning--I didn't find a database entry for "JohnsKrull1999"
-Warning--I didn't find a database entry for "Bergbusch1992"
-Warning--can't use both author and editor fields in Jeffries2012
-Warning--empty publisher in Jeffries2012
-You've used 56 entries,
+Warning--I didn't find a database entry for "Zwintz2014"
+Warning--I didn't find a database entry for "Boyajian2015"
+Warning--I didn't find a database entry for "Gaidos2016"
+You've used 0 entries,
             2988 wiz_defined-function locations,
-            1071 strings with 16904 characters,
-and the built_in function-call counts, 25993 in all, are:
-= -- 2119
-> -- 1879
-< -- 29
-+ -- 632
-- -- 574
-* -- 2217
-:= -- 4902
-add.period$ -- 56
-call.type$ -- 56
-change.case$ -- 377
-chr.to.int$ -- 54
-cite$ -- 58
-duplicate$ -- 1071
-empty$ -- 1531
-format.name$ -- 754
-if$ -- 5099
-int.to.chr$ -- 3
+            813 strings with 6261 characters,
+and the built_in function-call counts, 23 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 53
-newline$ -- 172
-num.names$ -- 226
-pop$ -- 414
+missing$ -- 0
+newline$ -- 4
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 377
+purify$ -- 0
 quote$ -- 0
-skip$ -- 896
+skip$ -- 1
 stack$ -- 0
-substring$ -- 1126
-swap$ -- 39
-text.length$ -- 2
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 501
-warning$ -- 2
-while$ -- 216
+type$ -- 0
+warning$ -- 0
+while$ -- 0
 width$ -- 0
-write$ -- 556
-(There were 28 warnings)
+write$ -- 3
+(There was 1 error message)

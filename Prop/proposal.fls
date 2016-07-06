@@ -262,12 +262,14 @@ INPUT ./fig/KJK-eps-converted-to.pdf
 INPUT ./fig/smc_iso_cmd.pdf
 INPUT ./fig/smc_iso_cmd.pdf
 INPUT ./fig/smc_iso_cmd.pdf
-INPUT proposal.bbl
-INPUT proposal.bbl
+INPUT sec/refs.tex
+INPUT sec/refs.tex
 INPUT sec/bio.tex
 INPUT sec/bio.tex
 INPUT sec/pending.tex
 INPUT sec/pending.tex
+INPUT sec/budget.tex
+INPUT sec/budget.tex
 INPUT proposal.aux
 INPUT ./proposal.out
 INPUT ./proposal.out
